@@ -1,9 +1,8 @@
 package com.paymentchain.billing;
-
-import org.junit.Assert;
 import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.Assert;
 import org.postgresql.translation.messages_bg;
+import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -11,10 +10,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class BasicApplicationTests {
 
-	@Test
-	public void contextLoads() {
-	String message= "default message de cambio devOps";
-	Assert.AssertNotNull(message);
-	}
+        @Test
+        public void contextLoads() {
+String message= "default message cambio testDevops";
+Assert.assertNotNull(message);
+        }
 
 }
