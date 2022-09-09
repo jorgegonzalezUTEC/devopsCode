@@ -1,6 +1,6 @@
 package com.paymentchain.billing;
 
-import ort.junit.Assert;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.postgresql.translation.messages_bg;
@@ -14,7 +14,7 @@ public class BasicApplicationTests {
 	@Test
 	public void contextLoads() {
 	String message= "default message de cambio devOps";
-	Assert.ssertNotNull(message);
+	Assert.AssertNotNull(message);
 	}
 
 }
